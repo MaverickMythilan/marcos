@@ -1,0 +1,10 @@
+package com.interfaceelements;
+
+public interface WomenElementsInterface {
+String women_xpath ="//span[text()='Women']" ;
+String tops_xpath = "//span[text()='Tops']";
+String jacket_xpath ="//span[text()='Jackets']";
+String junoJacket_xpath = "//img[@alt='Juno Jacket']";
+String 
+
+}

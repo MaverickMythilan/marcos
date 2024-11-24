@@ -1,0 +1,11 @@
+package com.interfaceelements;
+
+public interface LoginElemetsInterface {
+	
+	String signin_text = "(//li[@class='authorization-link'])[1]";
+	String email_id = "email";
+	String password_xpath = "//input[@id='pass']";
+	String Signin_text = "Sign In";
+	
+
+}

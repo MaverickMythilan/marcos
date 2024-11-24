@@ -1,0 +1,21 @@
+package com.runnerclass;
+
+import org.testng.Assert;
+
+import com.baseclass.Base_Class;
+import com.pageobjectmanager.OpenMrsPageObjectManager;
+import com.pageobjectmanager.PageObjectManager;
+
+public class OpenMrs_Runner extends Base_Class {
+	OpenMrsPageObjectManager pageobjectmanager = new OpenMrsPageObjectManager();
+	
+	public void setup() {
+	launchBrowser(pageobjectmanager.getFileReader().getDataProperty("browser"));
+	}
+	
+	private void  LoginWithValidUserNameAndPassWordt() {
+		Assert.assertTrue(pageobjectmanager.getLoginPage().validlogin());
+	}
+	
+
+}

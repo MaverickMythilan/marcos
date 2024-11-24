@@ -1,0 +1,10 @@
+package com.interfaceelements;
+
+public interface MenElementsInterface {
+	String men_xpath = "//span[@class='ui-menu-icon ui-icon ui-icon-carat-1-e'][4]";
+	String top_xpath ="//a[@id='ui-id-17']";
+	String jacket_xpath = "//a[@id='ui-id-19']";
+	String montanaJacket_xpath = "";
+	String = "";
+
+}

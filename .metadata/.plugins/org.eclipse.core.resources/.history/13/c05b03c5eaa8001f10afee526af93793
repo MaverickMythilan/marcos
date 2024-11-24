@@ -1,0 +1,6 @@
+package com.interfaceelements;
+
+public interface WomenElementsInterface {
+String women_xpath ="//span[text()='Women']" ;
+String tops_xpath = "//span[text()='Tops']";
+}

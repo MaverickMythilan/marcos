@@ -1,0 +1,26 @@
+package com.pageobjectmanager;
+
+import com.pageobjectmodel.OpenMrsLoginPage;
+import com.srcmainresources.OpenMrsFileReaderManager;
+
+public class OpenMrspageObjectManager {
+	private OpenMrsFileReaderManager fileReader;
+	private OpenMrsLoginPage loginPage;
+
+	public OpenMrsFileReaderManager getFileReader() {
+		if (fileReader == null) {
+			fileReader = new OpenMrsFileReaderManager();
+		}
+		return fileReader;
+	}
+
+	public OpenMrsLoginPage getLoginPage() {
+		if (loginPage == null) {
+			loginPage = new OpenMrsLoginPage(driver);
+
+		}
+		return loginPage;
+
+	}
+
+}

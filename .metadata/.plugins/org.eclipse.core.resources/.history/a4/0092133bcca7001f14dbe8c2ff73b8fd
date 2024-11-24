@@ -1,0 +1,18 @@
+package com.listeners;
+
+import com.aventstack.extentreports.ExtentTest;
+import com.baseclass.Base_Class;
+
+public class ExtentReport_Test {
+	public static ExtentTest extenttest;
+	
+	public void extentTestReportStartup() {
+		Base_Class base = new Base_Class() {
+		};
+		base.extentReportStart(null);
+	}
+	
+	public void extentReportEnd() 
+	
+
+}

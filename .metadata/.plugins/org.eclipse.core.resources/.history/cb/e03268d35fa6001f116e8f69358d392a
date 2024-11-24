@@ -1,0 +1,10 @@
+package com.interfaceelements;
+
+public class OpenMrsInterfaceElements {
+	String username_id = "username";
+	String password_xpath ="//input[@id='password']";
+	String location_xpath ="//li[@id='Inpatient Ward']";
+	String login_xpath ="//input[@id='loginButton']";
+	
+
+}

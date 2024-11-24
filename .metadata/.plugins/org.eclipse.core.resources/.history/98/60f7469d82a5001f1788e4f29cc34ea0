@@ -1,0 +1,38 @@
+package com.testng;
+
+public class SimpleAnnotations {
+	private void PropertySetting() {
+		System.out.println("Property setting");
+	}
+	private void browserLaunch() {
+		System.out.println("Browser Launch");
+	}
+	private void urlLaunch() {
+		System.out.println("urlLaunch");
+	}
+	private void login() {
+		System.out.println("Login");
+	}
+	private void women() {
+		System.out.println("Women");
+	}
+	private void men() {
+		System.out.println("Men");
+	}
+	private void kids() {
+		System.out.println("kids");
+	}
+	private void logout() {
+		System.out.println("logout");
+	}
+	private void screenshot() {
+		System.out.println("Screenshot");
+	}
+	private void closeBrowser() {
+		System.out.println("closeBrowser");
+	}
+	private void terminateBrowser() {
+		System.out.println("Terminate browser");
+
+}
+}

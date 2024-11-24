@@ -1,0 +1,13 @@
+package com.interfaceelements;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.baseclass.Base_Class;
+
+public class OpenMrsLogin extends Base_Class implements OpenMrsInterfaceElements {
+	@FindBy(id=username_id)
+	private WebElement username;
+	
+
+}

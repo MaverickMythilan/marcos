@@ -1,0 +1,6 @@
+package com.interfaceelements;
+
+public interface WomenElementsInterface {
+String women_xpath ="//span[@class='ui-menu-icon ui-icon ui-icon-carat-1-e']" ;
+String tops_xpath = ""
+}

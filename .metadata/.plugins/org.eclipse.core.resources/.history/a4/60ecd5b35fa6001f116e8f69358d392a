@@ -1,0 +1,8 @@
+package com.interfaceelements;
+
+import com.baseclass.Base_Class;
+
+public class OpenMrsLogin extends Base_Class implements OpenMrsInterfaceElements {
+	
+
+}

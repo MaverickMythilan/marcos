@@ -1,0 +1,13 @@
+package com.runnerclass;
+
+import com.baseclass.Base_Class;
+import com.pageobjectmanager.OpenMrsPageObjectManager;
+
+public class OpenMrs_Runner extends Base_Class {
+	OpenMrsPageObjectManager openMrs = new OpenMrsPageObjectManager();
+	
+	public void setup() {
+	launchBrowser(PageObjectManager.getfilereader().getDataproperty("browser"));
+	
+
+}

@@ -1,0 +1,23 @@
+package com.interfaceelements;
+
+public interface WomenElementsInterface {
+String women_xpath ="(//*[@class='ui-menu-icon ui-icon ui-icon-carat-1-e'])[1]" ;
+String tops_xpath = "//span[text()='Tops']";
+String jacket_xpath ="//span[text()='Jackets']";
+String junoJacket_xpath = "//img[@alt='Juno Jacket']";
+String size_xpath = "//div[@aria-label='L']";
+String colour_xpath ="//div[@aria-label='Purple']";
+String womenAddToCart_xpath="//*[text()='Add to Cart']";
+String womenValidation_xpath="//*[@data-bind='html: $parent.prepareMessageForHtml(message.text)']";
+String email_xpath = "//input[@fdprocessedid='ohrl2']";
+String firstName_xpath = "//input[@id='PKOPNTP']";
+String lastName_xpath = "//input[@id='MX93XH7']";
+String address_xpath = "//input[@fdprocessedid='nqofx7']";
+String country_xpath = "//select[@id='RNSDE5E']";
+String state_xpath = "//select[@id='QYD2MYD']";
+String city_xpath = "//input[@id='XH9H0LD']";
+String pinCode_xpath = "//input[@id='WK6E4S1']";
+String phoneNumber_xpath = "//input[@fdprocessedid='7hmn5i']";
+String nextButton_xpath = "//button[@fdprocessedid='ah4gqp']";
+
+}
